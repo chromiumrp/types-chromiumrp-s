@@ -33,7 +33,13 @@ declare namespace RageEnums {
 		VEHICLE_HORN_TOGGLE = "vehicleHornToggle",
 		VEHICLE_SIREN_TOGGLE = "vehicleSirenToggle",
 		VEHICLE_STREAM_IN = "vehicleStreamIn",
-		VEHICLE_STREAM_OUT = "vehicleStreamOut"
+		VEHICLE_STREAM_OUT = "vehicleStreamOut",
+
+		PLAYER_AUTH = "playerAuth",
+		PLAYER_INVITE_JOB = "playerInviteJob",
+		PLAYER_UNINVITE_JOB = "playerUninviteJob",
+		PLAYER_START_SHIFT_JOB = "playerStartShiftJob",
+		PLAYER_END_SHIFT_JOB = "playerEndShiftJob"
 	}
 
 	const enum ClothesComponent {

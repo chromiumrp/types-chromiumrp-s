@@ -201,7 +201,10 @@ interface PlayerMp extends EntityMp {
 	invoke(hash: string, ...args: any[]): void;
 	kick(reason: string): void;
 	kickSilent(): void;
-	notify(message: string): void;
+	notify(msg: string, options?: {
+		type: string | "error" | "success" | "info" | "warning",
+		duration?: number
+	}): void;
 	outputChatBox(message: string): void;
 	playAnimation(dict: string, name: string, speed: number, flag: number): void;
 	stopAnimation(): void;
