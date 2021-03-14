@@ -133,9 +133,14 @@ interface PlayerMp extends EntityMp {
 	heading: number;
 	health: number;
 	name: string;
+	firstName: string;
+	lastName: string;
 	weapon: number;
 	weaponAmmo: number;
 	disableOutgoingSync: boolean;
+	profileId: number;
+	characterId: number;
+	auth: boolean;
 	readonly action: string;
 	readonly aimTarget: PlayerMp;
 	readonly allWeapons: number[];
